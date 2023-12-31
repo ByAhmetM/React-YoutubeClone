@@ -117,6 +117,27 @@ const VideoDetail = () => {
 
       {/* alakalı videolar kısmı */}
       <div className=" flex flex-col gap-5 p-5">
+        <div className="flex gap-3 text-white fw-bold  ">
+          <button
+            className="bg-white text-black  fw-bold  p-1 px-2 rounded   "
+            href=""
+          >
+            Tümü
+          </button>
+          <button
+            className="bg-[#2e2e2e] p-1 px-3 rounded hover:bg-[#747373]"
+            href=""
+          >
+            {video?.channelTitle}
+          </button>
+          <button
+            className="bg-[#2e2e2e] p-1 px-3 rounded hover:bg-[#747373]"
+            href=""
+          >
+            İlgili
+          </button>
+        </div>
+
         {!video ? (
           <Loader isRow={true} />
         ) : (

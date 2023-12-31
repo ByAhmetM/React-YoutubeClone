@@ -15,9 +15,9 @@ const Header = () => {
 
   return (
     <header className="flex items-center justify-between p-5">
-      <Link to={"/"} className="flex items-center gap-[10px]">
+      <Link to={"/"} className="flex items-center gap-[5px]">
         <img width={50} src="/youtube.png" />
-        <h1 className="text-2xl max-md:hidden">Youtube</h1>
+        <h1 className="text-xl max-md:hidden">@ogretmenbabis</h1>
       </Link>
       <form
         onSubmit={handleSubmit}
