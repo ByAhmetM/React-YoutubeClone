@@ -1,15 +1,3 @@
-# Kütüphaneler
-
-- react-icons
-- react-router-dom
-- axios
-- millify
-- moment
-- react-player
-- tailwind (kurulumu sitesinde)
-
-# Kaynaklar
-
-- API: https://rapidapi.com/ytjar/api/yt-api
+# React ContextAPI ile youtube clone projesi. RapidAPI kullanımı.
 
 <img src="youtube.gif"/>
