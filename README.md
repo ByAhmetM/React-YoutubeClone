@@ -2,7 +2,6 @@
 
 Bu proje, Youtube benzeri bir video platformunu canlandırmak amacıyla geliştirilmiştir. Projede Axios ile veri çekme, arama yapma, React Player ile video oynatma, ve Context API kullanımı öne çıkan özelliklerdir.
 
-
 ## Ekran Görüntüleri
 
 <img src="./youtube.gif">
